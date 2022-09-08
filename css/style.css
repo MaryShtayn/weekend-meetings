@@ -1,3 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.grid-section {
+    background-color: aqua;
+
+}
+
+.grid-list {
+    background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: pink;
+}
+
 .page-header {}
 
 .logo {}
