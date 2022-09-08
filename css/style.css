@@ -71,6 +71,12 @@ img {
     grid-column: 3/5;
 }
 
+.grid-item:nth-child(13){
+    background-color: azure;
+    grid-column: 2/4;
+    grid-row: 4/6;
+}
+
 .page-header {}
 
 .logo {}
