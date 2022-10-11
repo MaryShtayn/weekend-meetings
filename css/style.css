@@ -1,11 +1,11 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1,
@@ -15,86 +15,105 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-    width: 1230px;
-    margin: 0 auto;
-    padding: 0 15px;
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .grid-section {
-    background-color: aqua;
-
+  background-color: aqua;
 }
 
 .grid-list {
-    background-color: blueviolet;
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
+  background-color: blueviolet;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
 }
 
 .grid-item {
-    background-color: pink;
+  background-color: pink;
 }
 
-.page-header {}
+.page-header {
+}
 
-.logo {}
+.logo {
+}
 
-.navigation {}
+.navigation {
+}
 
-.nav-list {}
+.nav-list {
+}
 
-.nav-item {}
+.nav-item {
+}
 
-.nav-link {}
+.nav-link {
+}
 
-.outer-list {}
+.outer-list {
+}
 
-.outer-item {}
+.outer-item {
+}
 
-.outer-link {}
+.outer-link {
+}
 
-.gift-btn {}
+.gift-btn {
+}
 
-.hero {}
+.hero {
+}
 
-.hero-title {}
+.hero-title {
+}
 
-.hero-text {}
+.hero-text {
+}
 
-.hero-link {}
+.hero-link {
+}
 
-.hero-img {}
+.hero-img {
+}
 
-.features {}
+.features {
+}
 
-.feature-img {}
+.feature-img {
+}
 
-.feature-title {}
+.feature-title {
+}
 
-.feature-text {}
+.feature-text {
+}
 
-.feature-link {}
+.feature-link {
+}

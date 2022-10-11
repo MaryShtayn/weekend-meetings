@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+}
+
+.grid {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.grid__list {
+  display: grid;
+  height: auto;
+  grid-gap: 5px;
+  border-radius: 4px;
+  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.wrapper__item {
+  border: 3px solid salmon;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+}
